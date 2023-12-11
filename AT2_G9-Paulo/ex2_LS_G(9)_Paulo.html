@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ex2_g9.css">
+</head>
+<body>
+    <div id="totalcaixa">
+            <h1 id="title">veterinaria</h1>
+            <label id="lab1">
+                nome:
+                <input type="text" id="nome">
+            </label>
+            <br><br>
+            <label id="lab2">
+                preço:
+                <input type="text" id="preco">
+            </label>
+        <form>
+            <h2 id="title2">Possui Convênio?</h2>
+            <br>
+            <label id="ss">
+            <input type="radio" id="sim" value="1" name="qw" onclick="parteP()">
+            Sim</label><br>
+
+            <label id="nn">
+            <input type="radio" id="nao" value="2" name="qw" onclick="parteT()">
+            Não</label><br>
+            
+
+
+
+</div>
+
+<div id="quadrado1" onclick="parteP()">
+    <div id="caixa">
+        <select id="plano">
+            <option>Escolha</option>
+            <option value="vida" onclick="vida()">Vida Pet</option>
+            <option value="animal" onclick="animal()">Animal Planet</option>
+        </select>
+        </div>
+        <br>
+    </form> 
+    <div id="meio"> 
+    <button onclick="mostrar()" id="mostra">mostrar</button>
+    </div>
+    <p id="mostrar1"></p>
+    <p id="mostrar2"></p>
+
+</div>
+
+
+<div id="quadrado2" onclick="parteT()">
+    <button onclick="mostrar()" id="mostra">mostrar</button>
+    <p id="mostrar3"></p>
+    <p id="mostrar4"></p>
+</div>
+
+
+    <script src="js/ex2_LS_G(9)_Paulo.js"></script>
+</body>
+</html>
